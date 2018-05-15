@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Simulators", "WiredBrainCoffee.Simulators\WiredBrainCoffee.Simulators.csproj", "{74075CBA-1340-4E35-89E7-F5462A2BE48B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.ConsoleApp", "WiredBrainCoffee.ConsoleApp\WiredBrainCoffee.ConsoleApp.csproj", "{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74075CBA-1340-4E35-89E7-F5462A2BE48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74075CBA-1340-4E35-89E7-F5462A2BE48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74075CBA-1340-4E35-89E7-F5462A2BE48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
