@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WiredBrainCoffee.UI.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Wired Brain Coffee" FontSize="20" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock Text="Cappuccino counter:" Margin="5 0" />
+        <TextBox x:Name="txtCappuccinoCounter" IsReadOnly="True" Margin="5" />
+        <Button Content="Make Cappuccino" Click="ButtonMakeCappuccinoClick" HorizontalAlignment="Left" Width="200" Margin="5" />
+    </StackPanel>
 </Window>
