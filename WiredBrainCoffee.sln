@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Simulators", "WiredBrainCoffee.Simulators\WiredBrainCoffee.Simulators.csproj", "{74075CBA-1340-4E35-89E7-F5462A2BE48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.Simulators", "WiredBrainCoffee.Simulators\WiredBrainCoffee.Simulators.csproj", "{74075CBA-1340-4E35-89E7-F5462A2BE48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.ConsoleApp", "WiredBrainCoffee.ConsoleApp\WiredBrainCoffee.ConsoleApp.csproj", "{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.ConsoleApp", "WiredBrainCoffee.ConsoleApp\WiredBrainCoffee.ConsoleApp.csproj", "{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.UI.Wpf", "WiredBrainCoffee.UI.Wpf\WiredBrainCoffee.UI.Wpf.csproj", "{A8755FFC-B5B9-4276-A361-40BFCB41EC48}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Framework", ".NET Framework", "{838A284C-0D5E-4DD2-935E-E23429C05641}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Standard", ".NET Standard", "{69FCAEF5-7AB5-4421-A72C-319C2A8A2B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Storage", "WiredBrainCoffee.Storage\WiredBrainCoffee.Storage.csproj", "{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A8755FFC-B5B9-4276-A361-40BFCB41EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8755FFC-B5B9-4276-A361-40BFCB41EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8755FFC-B5B9-4276-A361-40BFCB41EC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{74075CBA-1340-4E35-89E7-F5462A2BE48B} = {69FCAEF5-7AB5-4421-A72C-319C2A8A2B4E}
 		{A16A6A1F-A747-4F6D-B14C-C743FCD30A4B} = {8498EEB5-9527-4729-98DB-7D43F58631A7}
 		{A8755FFC-B5B9-4276-A361-40BFCB41EC48} = {838A284C-0D5E-4DD2-935E-E23429C05641}
+		{02E783BD-7ECA-4B1C-BC5A-574BA4D80B68} = {838A284C-0D5E-4DD2-935E-E23429C05641}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {297E601D-BF10-40E3-8FBA-E0A9F51D6387}
