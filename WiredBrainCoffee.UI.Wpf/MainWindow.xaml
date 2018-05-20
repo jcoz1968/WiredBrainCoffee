@@ -10,5 +10,6 @@
         <TextBlock Text="Cappuccino counter:" Margin="5 0" />
         <TextBox x:Name="txtCappuccinoCounter" IsReadOnly="True" Margin="5" />
         <Button Content="Make Cappuccino" Click="ButtonMakeCappuccinoClick" HorizontalAlignment="Left" Width="200" Margin="5" />
+        <Button Content="Show Stored State" Click="ButtonShowStoredStateClick" HorizontalAlignment="Left" Width="200" Margin="5" />
     </StackPanel>
 </Window>

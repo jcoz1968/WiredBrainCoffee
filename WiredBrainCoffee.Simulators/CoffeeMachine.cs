@@ -25,5 +25,10 @@ namespace WiredBrainCoffee.Simulators
                 CounterCappuccino = CounterCappuccino
             });
         }
+
+        public void ShowStoredState()
+        {
+            _coffeeMachineStateSaver.ShowStoredJson();
+        }
     }
 }
