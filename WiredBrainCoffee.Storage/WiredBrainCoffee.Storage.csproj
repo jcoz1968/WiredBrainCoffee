@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFrameworks>net461;netstandard1.3</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Wired Brain Coffee</Company>
+    <Description>Use this package to store the state of a coffee machine</Description>
+    <PackageIconUrl>https://www.thomasclaudiushuber.com/wiredbraincoffee.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
